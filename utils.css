@@ -1,0 +1,46 @@
+.text-center{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'pacifico', cursive;
+    text-shadow: 2px 2px 4px #000;
+    animation: color 5s;
+
+}
+
+@keyframes color {
+    0%{color: orange;}
+    10%{color: purple;}
+    20%{color: dodgerblue;}
+    30%{color: red;}
+    40%{color: cadetblue;}
+    50%{color: yellow;}
+    60%{color: coral;}
+    70%{color: green;}
+    80%{color: cyan;}
+    90%{color: deeppink;}
+    100%{color: orange;}
+
+}
+
+.container {
+    border: 2px solid black;
+    width: 320px;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}
